@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+#title {
+    background-color: #000000;
+    color: #fff;
+}
+
+body {
+    font-family: 'Yellowtail', cursive;
+    position: relative;
+}
+
+.navbar-brand {
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+}
+
+.collapse {
+    font-family: 'Yellowtail', cursive;
+    font-size: 37px;
+}
+
+.title-image {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 150px;
+    border-radius: 15%;
+}
+
+.container {
+    height: 600px;
+}
+
+.header1 {
+    padding-top: 150px;
+    font-family: 'Yellowtail', cursive;
+}
+
+.headerp {
+    font-size: 47px;
+}
+
+.btn {
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.brand-img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.extra-margin {
+    margin-top: 50px;
+}
+
+.rowh {
+    margin-top: 15px;
+}
+
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+}
+
+.carousel-item,
+.col,
+.col-sm,
+.col-md {
+    margin: 8px;
+    height: 300px;
+    background-size: cover;
+}
+
+.carousels {
+    background-color: #000000;
+}
+
+.carousel-inner {
+    padding-top: 80px;
+}
+
+.carouselh {
+    text-align: center;
+    margin: auto;
+    font-size: 65px;
+    color: #fff;
+    padding-top: 10px !important;
+}
+
+.carouselp {
+    text-align: center;
+    margin: auto;
+    font-size: 55px;
+    color: #fff;
+}
+
+.press-img {
+    padding: 0px 37px;
+    width: 270px;
+    height: 70px;
+}
+
+.alpha {
+    margin: auto;
+    width: 80%;
+    padding-top: 100px;
+}
+
+.card-body {
+    height: 250px !important;
+}
+
+h2,
+p {
+    font-family: 'Yellowtail', cursive;
+}
+
+p {
+    font-size: 20px !important;
+}
+
+.info {
+    margin-top: 100px;
+}
+
+.info2 {
+    margin-top: 0px !important;
+}
+
+.infop {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-size: 45px !important;
+    text-align: center;
+    color: #fff;
+}
+
+.infop1 {
+    margin-top: 250px;
+    margin-bottom: 100px;
+    font-size: 45px !important;
+    text-align: center;
+}
+
+.infoimg {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    width: 250px;
+    height: 400px;
+}
+
+.infoimg1 {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 400px;
+}
+
+.info1 {
+    background-color: #000000;
+}
+
+.foot {
+    background-color: #000000;
+    font-family: 'Yellowtail', cursive;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+}
+
+.footimg {
+    width: 350px;
+    height: 200px;
+}
+
+.footh {
+    font-size: 50px;
+}
+
+.footers {
+    height: 250px;
+    padding-top: 120px;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.social {
+    margin: auto;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .title-image {
+        visibility: hidden;
+    }
+    #features {
+        margin-top: 50px;
+    }
+    .carousel-item {
+        width: 300px;
+        height: 8000px;
+    }
+    .carousels {
+        height: 1580px;
+    }
+    .infop {
+        padding-top: -20px !important;
+        padding-left: 50px !important;
+        font-size: 35px !important;
+    }
+    .infoimg {
+        visibility: hidden;
+    }
+    .infop1 {
+        padding-top: -20px !important;
+        padding-right: 50px !important;
+        font-size: 35px !important;
+    }
+    .infoimg1 {
+        visibility: hidden;
+    }
+    .foot {
+        height: 500px;
+    }
+}

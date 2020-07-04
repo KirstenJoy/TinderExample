@@ -227,6 +227,10 @@ p {
     height: 20px;
 }
 
+.two {
+    height: 969px !important;
+}
+
 @media only screen and (max-width: 900px) {
     .title-image {
         visibility: hidden;
